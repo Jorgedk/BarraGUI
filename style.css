@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800.900&display=swap');
+
+
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+ 
+    min-height: 100vh;
+    background-color: beige ; 
+
+
+
+
+.barra {
+  
+    position: absolute;
+     width: 60px;
+     height: 100vh;
+     background-color: aliceblue;
+     overflow: hidden;
+     transition: 0.5s;
+
+}  
+
+.barra:hover {
+
+    width: 200px;
+
+
+
+
+}
+
+.barra ul {
+
+    position: relative;
+    height: 100vh;
+}
+
+.barra ul li {
+
+    list-style-type: none;
+
+}
+
+.barra ul li :hover {
+
+     background-color: cornsilk;
+}
+
+.barra ul li a {
+  position: relative;
+ display: flex;
+white-space: nowrap;
+text-decoration: none;
+
+}
+
+.barra ul li a .icono {
+
+position: relative;
+height: 60px;
+display: flex;
+align-items: center;
+font-size: 1em;
+color:black;
+text-transform: uppercase;
+letter-spacing: 0.05em;
+
+
+}
